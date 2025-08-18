@@ -1,7 +1,7 @@
 import pyrealsense2 as rs
 import numpy as np
 import cv2
-from get_realsense_intrinsics import get_realsense_intrinsics
+from realsense.get_realsense_intrinsics import get_realsense_intrinsics
 
 class Point3D:
     def __init__(self, x, y, z, pid):

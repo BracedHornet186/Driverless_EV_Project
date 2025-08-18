@@ -49,6 +49,10 @@ def get_realsense_intrinsics():
             [0, 0, 1]
         ])
 
+    finally:
+        # Always stop pipeline
+        pipeline.stop()    
+        
         return {
             "color": {
                 "intrinsics": color_intrinsics,
@@ -59,11 +63,6 @@ def get_realsense_intrinsics():
                 "matrix": depth_matrix
             }
         }
-
-    finally:
-        # Always stop pipeline
-        pipeline.stop()
-
 
 if __name__ == "__main__":
     intrinsics = get_realsense_intrinsics()
