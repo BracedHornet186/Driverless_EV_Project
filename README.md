@@ -1,11 +1,11 @@
-# Driverless EV Project 🚘
+# Driverless EV Project
 
 This repository hosts the source code, designs, and documentation for the **Driverless Electric Vehicle (EV) Project**, maintained by collaborators from the **Department of Mechanical Engineering, IIT Madras**.  
 The project integrates advanced perception, planning, and control modules with sustainable electric vehicle technology to build a fully autonomous mobility platform.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 The Driverless EV Project aims to:
 - Develop an **autonomous electric vehicle** platform for research and education.  
 - Integrate **vision, sensor fusion, planning, and control** algorithms.  
@@ -14,7 +14,7 @@ The Driverless EV Project aims to:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```bash
 ├── docs/               # Documentation, reports, design notes
 ├── hardware/           # CAD models, wiring diagrams, BOM

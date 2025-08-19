@@ -2,6 +2,7 @@ import pyrealsense2 as rs
 import numpy as np
 import cv2
 from realsense.get_realsense_intrinsics import get_realsense_intrinsics
+from ouster.get_lidar_points import get_lidar_points
 
 class Point3D:
     def __init__(self, x, y, z, pid):
@@ -53,12 +54,9 @@ def main():
         [0, 0, 0, 1]
     ])
 
-    # Example LiDAR points
-    lidar_points = [
-        Point3D(5.0, 1.0, 2.0, 0),
-        Point3D(6.0, 1.2, 2.1, 1),
-        Point3D(4.5, 0.5, 1.8, 2)
-    ]
+    # Get LiDAR points
+    points_np = get_lidar_points(hostname="os-122507000193.local", range_min=0.5)
+    lidar_points = [Point3D(x, y, z, i) for i, (x, y, z) in enumerate(points_np)]
 
     # Example detected objects
     detected_objects = [
@@ -67,7 +65,7 @@ def main():
         ))
     ]
 
-    # Algorithm 1 implementation
+    # Algorithm implementation
     for obj in detected_objects:
         min_z = float("inf")
 
@@ -80,7 +78,8 @@ def main():
                 continue
 
             # Project to pixel coordinates
-            uv = project_to_image(p_cam, K)
+            uv = rs.rs2_project_point_to_pixel(K, p_cam)
+            # uv = project_to_image(p_cam, K)
 
             # Check if inside bounding box
             if point_inside_bbox(uv, obj.bbox):
