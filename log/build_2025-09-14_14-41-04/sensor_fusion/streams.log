@@ -1,0 +1,83 @@
+[0.005s] Invoking command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abhiyaan-cu/Driverless_EV_Project/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.481s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.485s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.491s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.548s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.550s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.567s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.574s] -- Looking for pthread.h
+[0.624s] -- Looking for pthread.h - found
+[0.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.662s] -- Found Threads: TRUE  
+[0.703s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.704s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.816s] -- Configuring done
+[0.822s] -- Generating done
+[0.825s] -- Build files have been written to: /home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion
+[0.832s] Invoked command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abhiyaan-cu/Driverless_EV_Project/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion
+[0.833s] Invoking command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion -- -j20 -l20
+[0.877s] Built target ament_cmake_python_copy_sensor_fusion
+[1.050s] running egg_info
+[1.050s] creating sensor_fusion.egg-info
+[1.050s] writing sensor_fusion.egg-info/PKG-INFO
+[1.050s] writing dependency_links to sensor_fusion.egg-info/dependency_links.txt
+[1.050s] writing top-level names to sensor_fusion.egg-info/top_level.txt
+[1.050s] writing manifest file 'sensor_fusion.egg-info/SOURCES.txt'
+[1.053s] reading manifest file 'sensor_fusion.egg-info/SOURCES.txt'
+[1.053s] writing manifest file 'sensor_fusion.egg-info/SOURCES.txt'
+[1.074s] Built target ament_cmake_python_build_sensor_fusion_egg
+[1.082s] Invoked command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion -- -j20 -l20
+[1.091s] Invoking command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion
+[1.096s] -- Install configuration: ""
+[1.096s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/pythonpath.sh
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/pythonpath.dsv
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion-0.0.1-py3.10.egg-info
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion-0.0.1-py3.10.egg-info/PKG-INFO
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion-0.0.1-py3.10.egg-info/top_level.txt
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/fusion_node.py
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/__init__.py
+[1.097s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/yolo_detector.py
+[1.121s] Listing '/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion'...
+[1.121s] Compiling '/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/__init__.py'...
+[1.121s] Compiling '/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/fusion_node.py'...
+[1.121s] Compiling '/home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/local/lib/python3.10/dist-packages/sensor_fusion/yolo_detector.py'...
+[1.126s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/lib/sensor_fusion/fusion_node.py
+[1.126s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/lib/sensor_fusion/yolo_detector.py
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/package.dsv
+[1.130s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+[1.131s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.131s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+[1.131s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+[1.131s] -- Installing: /home/abhiyaan-cu/Driverless_EV_Project/install/sensor_fusion/share/sensor_fusion/package.xml
+[1.131s] Invoked command in '/home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abhiyaan-cu/Driverless_EV_Project/build/sensor_fusion

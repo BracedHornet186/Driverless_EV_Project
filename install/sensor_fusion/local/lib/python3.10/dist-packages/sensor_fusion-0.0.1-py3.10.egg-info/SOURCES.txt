@@ -1,0 +1,8 @@
+setup.py
+sensor_fusion/__init__.py
+sensor_fusion/fusion_node.py
+sensor_fusion/yolo_detector.py
+sensor_fusion.egg-info/PKG-INFO
+sensor_fusion.egg-info/SOURCES.txt
+sensor_fusion.egg-info/dependency_links.txt
+sensor_fusion.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "perception_msgs__py",
+		"source" : "/home/abhiyaan-cu/Driverless_EV_Project/build/perception_msgs/perception_msgs__py"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "package_name": "perception_msgs",
+  "non_idl_tuples": [
+    "/home/abhiyaan-cu/Driverless_EV_Project/src/perception_msgs:msg/BoundingBox.msg",
+    "/home/abhiyaan-cu/Driverless_EV_Project/src/perception_msgs:msg/ObjectDetection.msg",
+    "/home/abhiyaan-cu/Driverless_EV_Project/src/perception_msgs:msg/ObjectDetections.msg"
+  ]
+}
